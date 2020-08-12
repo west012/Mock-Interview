@@ -1,4 +1,4 @@
-let button = getElementById('Submit');
+let button = querySelector('Submit');
 
 button.addEventListener('click', function(){
     let billAmt = document.querySelector('bill').value;

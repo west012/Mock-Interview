@@ -38,7 +38,7 @@
     height: 25 px;
     width: 250 px;
 }    
-#Submit{
+.Submit{
     grid-area: button;
     height:75 px;
     width:auto;
