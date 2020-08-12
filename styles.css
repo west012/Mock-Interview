@@ -9,7 +9,8 @@
     width:500 px;
     background-color: white;
     display: grid;
-    grid-template-columns: 100 px 1 fr;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 75px 75px 75px 75px;
     grid-template-areas: 
     ". bill"
     ". tipPercent"
