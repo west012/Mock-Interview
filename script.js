@@ -1,10 +1,10 @@
-let button = querySelector('Submit');
+let button = document.querySelector('.Submit');
 
 button.addEventListener('click', function(){
-    let billAmt = document.querySelector('bill').value;
-    let tipPercent = document.querySelector('tipPercent').value;
+    let billAmt = document.querySelector('.bill').value;
+    let tipPercent = document.querySelector('.tipPercent').value;
     let tip = billAmt / tipPercent;
-    document.querySelector('Sum').value = parseFloat(billAmt) + parseFloat(tip);
+    document.querySelector('.Sum').value = parseFloat(billAmt) + parseFloat(tip);
     console.log(billAmt);
 
 
