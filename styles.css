@@ -1,0 +1,48 @@
+*{
+    background-color: rgb(167, 23, 23);
+    height: 100%;
+}
+
+.container{
+    margin: auto;
+    height:300px;
+    width:500 px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 100 px 1 fr;
+    grid-template-areas: 
+    ". bill"
+    ". tipPercent"
+    ". heads"
+    ". sum"
+    " button button";
+    border-radius: 5 px;
+}
+.bill{
+    grid-area: bill;
+    height: 25 px;
+    width: 250 px;
+}
+.tipPercent{
+    grid-area: tipPercent;
+    height: 25 px;
+    width: 250 px;
+}
+.heads{
+    grid-area: heads;
+    height: 25 px;
+    width: 250 px;
+}
+.Sum{
+    grid-area: sum;
+    height: 25 px;
+    width: 250 px;
+}    
+#Submit{
+    grid-area: button;
+    height:75 px;
+    width:auto;
+    background-color: red;
+    color:white;
+    border-radius: 3px;
+}
