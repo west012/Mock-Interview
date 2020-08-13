@@ -6,7 +6,7 @@
 .container{
     margin: auto;
     height:300px;
-    width:500 px;
+    width:500px;
     background-color: white;
     display: grid;
     grid-template-columns: 100px 1fr;
